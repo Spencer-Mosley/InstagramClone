@@ -6,14 +6,13 @@ import { View, Text } from 'react-native'
 import * as firebase from 'firebase'
 
 const firebaseConfig = {
-  apiKey: "***",
-  authDomain: "***",
-  databaseURL: "***",
-  projectId: "***",
-  storageBucket: "***",
-  messagingSenderId: "***",
-  appId: "***",
-  measurementId: "***"
+  apiKey: "AIzaSyBPJbIQd1Y-7n8NGl2Wun1srbafnfev8Po",
+  authDomain: "instagram-4c08a.firebaseapp.com",
+  projectId: "instagram-4c08a",
+  storageBucket: "instagram-4c08a.appspot.com",
+  messagingSenderId: "745712488623",
+  appId: "1:745712488623:web:7311f862a16c3fc177c45a",
+  measurementId: "G-5WM19E2DXK"
 };
 
 if (firebase.apps.length === 0) {
